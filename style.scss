@@ -1,0 +1,44 @@
+$color-btn-1: #0e6cff;
+$color-btn-2: #ff8700;
+$color-btn-3: #4caf50;
+$color-white: white;
+
+.btn-properties {
+    text-align: center;
+    transition: transform 0.3s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+.main-container {
+    h1 {
+        color: $color-white; 
+    }
+    background-color: #640fc5;
+    text-align: center;
+    p {
+        display: inline-block;
+        padding-bottom: 20px;
+        margin-right: 20px ;
+        color: $color-white;   
+    }
+    img {
+        width: 200px;
+    }
+    .buttons {
+        margin: 20px;
+    }
+    .btn-seek {
+        @extend .btn-properties;
+        background-color: $color-btn-1;
+        color: $color-white;
+    }
+    .btn-join {
+        @extend .btn-properties;
+        background-color: $color-btn-2;
+    }
+    .btn-contact {
+        @extend .btn-properties;
+        background-color: $color-btn-3;
+    }
+}

@@ -1,0 +1,37 @@
+.btn-properties, .main-container .btn-contact, .main-container .btn-join, .main-container .btn-seek {
+  text-align: center;
+  transition: transform 0.3s;
+}
+.btn-properties:hover, .main-container .btn-contact:hover, .main-container .btn-join:hover, .main-container .btn-seek:hover {
+  transform: scale(1.2);
+}
+
+.main-container {
+  background-color: #640fc5;
+  text-align: center;
+}
+.main-container h1 {
+  color: white;
+}
+.main-container p {
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  color: white;
+}
+.main-container img {
+  width: 200px;
+}
+.main-container .buttons {
+  margin: 20px;
+}
+.main-container .btn-seek {
+  background-color: #0e6cff;
+  color: white;
+}
+.main-container .btn-join {
+  background-color: #ff8700;
+}
+.main-container .btn-contact {
+  background-color: #4caf50;
+}/*# sourceMappingURL=style.css.map */
